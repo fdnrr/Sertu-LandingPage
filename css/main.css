@@ -1,8 +1,11 @@
 /************* BASE STYLES *************/
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 * { box-sizing: border-box; }
-body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
+body { font-family: 'Rubik', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
 input, button { font-family: inherit; font-size: inherit; }
-a { color: #faa541; text-decoration: none; }
+a { color: #e91d6d; text-decoration: none; }
 ul { padding: 0; margin: 0; list-style: none; }
 nav { padding: 10px 0; }
 h1, h2, h3, h4, h5, h6 { margin: 0; }
@@ -35,13 +38,14 @@ section {
 .space-between {
   justify-content: space-between;
 }
-.btn {
+.boton-footer {
   cursor: pointer;
   border: 0;
   padding: 6px 12px;
   border-radius: 3px;
   line-height: 1.4;
 }
+
 .btn-default {
   color: white;
   background-color: #faa541;
@@ -58,16 +62,29 @@ section {
   line-height: 1.4;
 }
 .text-light {
-  font-size: 30px;
+  font-size: 55px;
   color: #a0a0a0;
+  padding-bottom: 50px;
+  
+  text-align: center;
 }
 .text-secondary {
-  font-size: 30px;
-  color: #faa541;
+  font-size: 15px;
+  color: #e91d6d;
+  padding-bottom: 45px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
 }
 .text-primary {
-  font-size: 16px;
+  font-size: 10px;
   color: #364147;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+.lista {
+  padding-top: 30px;
 }
 .header-nav {
   border-bottom: 1px solid #a0a0a0;
@@ -128,21 +145,22 @@ section {
   max-width: 100%;
 }
 .hero {
-  background-image: url('../img/hero.jpg');
+  background-image: url(../img/header-sertu.jpg);
   height: 400px;
   background-size: cover;
   background-position: center center;
   text-transform: uppercase;
+  
 }
 .hero h1 {
   position: relative;
   left: -30px;
+  color: #e91d6d;
 }
-.hero h2 {
-  color: #faa541;
-}
+
+
 .hero h1, .hero h2 {
-  font-size: 63px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 0.9;
 }
@@ -151,6 +169,7 @@ section {
   font-weight: 700;
   font-size: 21px;
   margin: 0 0 10px 0;
+  color: white;
 }
 .banner {
   margin: 55px 15px;
@@ -190,7 +209,7 @@ section {
 .category-text > div {
   font-size: 16px;
   font-weight: 200;
-  color: #faa541;
+  color: #e91d6d;
 }
 .category-text h3 {
   font-size: 30px;
@@ -364,4 +383,22 @@ footer a:hover {
   min-width: auto;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+.ser-tu{
+  padding-left: 290px;
+}
+#ser-tu-imagen{
+padding-left: 80px;
+width: 90%;
+height: 300px;
+} 
+p{
+  text-align: center;
+}
+h2 {
+  font-size: 15px;
+}
+.parrafo-2{
+  text-align: justify;
+  padding-top: 15px;
 }
